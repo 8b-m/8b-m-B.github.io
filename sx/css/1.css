@@ -1,0 +1,65 @@
+
+
+.a{
+	
+	margin: auto;
+	width:940px;height:280px;padding:0.6rem;border:2px solid #F00} 
+.a1{
+		margin: auto;
+		width: 820px;
+
+	}
+.a1_left{ 
+
+	float:left;width:400px;border:1px solid #00F;height:180px} 
+.a1_right{
+	float:right;width:400px;border:1px solid #00F;height:180px} 
+.clear{
+	clear:both}
+.footer{
+    position:absolute;
+    color:#fff;
+    bottom:0;
+    width:100%;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    background-color: #000;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+body{
+    min-height:100%;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+header{
+    background: #5f5f00;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+}
+main{ /* main的padding-bottom值要等于或大于footer的height值 */
+    padding-bottom:100px;
+    background:#ccc;
+    text-align: center;
+}
+footer{
+    position:absolute;
+    color:#fff;
+    bottom:0;
+    width:100%;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    background-color: #000;
+}
